@@ -22,19 +22,19 @@ program
  
 // 定义使用方法
  
-program
+//program
  
-.command('add')
+//.command('add')
  
-.description('Add a new template')
+//.description('Add a new template')
  
-.alias('a')
+//.alias('a')
  
-.action(() => {
+//.action(() => {
  
-require('../command/add')()
+//require('../command/add')()
  
-})
+//})
  
  
  
@@ -42,7 +42,7 @@ program
  
 .command('list')
  
-.description('List all the templates')
+.description('List all the templates(查看所有模板)')
  
 .alias('l')
  
@@ -58,38 +58,36 @@ program
  
 .command('init')
  
-.description('Generate a new project')
+.description('Generate a new project(创建一个新的项目)')
  
 .alias('i')
  
 .action(() => {
  
-require('../command/init')()
+require('../command/init')(process.argv[2])
  
 })
  
  
  
-program
+//program
  
-.command('delete')
+//.command('delete')
  
-.description('Delete a template')
+//.description('Delete a template')
  
-.alias('d')
+//.alias('d')
  
-.action(() => {
+//.action(() => {
  
-require('../command/delete')()
+//require('../command/delete')()
  
-})
+//})
 
 program.parse(process.argv)
  
  
  
 if(!program.args.length){
- 
-program.help()
- 
+  program.help()
 }

@@ -1,1 +1,9 @@
-{"tpl":{"wx-mini-program":{"url":"https://baidu.com","branch":"master"}}}
+{
+    "tpl": {
+        "ux": {
+            "url": "https://github.com/EasyDeveloper2/ux.git",
+            "branch": "master",
+            "desc": "快应用"
+        }
+    }
+}

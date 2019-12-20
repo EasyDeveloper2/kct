@@ -12,15 +12,17 @@ const chalk = require('chalk')
 
 
 
-module.exports = () => {
+module.exports = (name) => {
 
     co(function* () {
 
         // 处理用户输入
+        let tplName = name
+        if (!tplName) {
+            tplName = yield prompt('Template name(模板名称如:ux): ')
+        }
 
-        let tplName = yield prompt('Template name: ')
-
-        let projectName = yield prompt('Project name: ')
+        let projectName = yield prompt('Project name(请输入项目名称): ' + name)
 
         let gitUrl
 
