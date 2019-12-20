@@ -1,13 +1,13 @@
 {
   "name": "kct",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "脚手架工具",
   "main": "init.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "kct": "npm ./bin/kct"
+    "kct": "bin/kct"
   },
   "author": "xujie",
   "license": "ISC",
