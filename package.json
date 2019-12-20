@@ -1,13 +1,13 @@
 {
   "name": "kct",
-  "version": "1.0.0",
-  "description": "鲲驰脚手架工具",
+  "version": "1.0.1",
+  "description": "脚手架工具",
   "main": "init.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "kct": "bin/kct"
+    "kct": "npm ./bin/kct"
   },
   "author": "xujie",
   "license": "ISC",
@@ -16,5 +16,9 @@
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.9.0"
-  }
+  },
+  "keywords": [
+    "小程序",
+    "react-native"
+  ]
 }
