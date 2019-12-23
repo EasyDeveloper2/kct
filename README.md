@@ -1,9 +1,6 @@
 
 # 提供多种开发模板方便快速获取
 
-| NPM                                  | Dependency                                     | Downloads                                      | Build                                       |
-| ------------------------------------ | ---------------------------------------------- | ---------------------------------------------- | ------------------------------------------- |
-| [![NPM version][npm-image]][npm-url] | [![Dependency Status][david-image]][david-url] | [![Downloads][downloads-image]][downloads-url] | [![Build Status][travis-image]][travis-url] |
 
 ## 安装
 
