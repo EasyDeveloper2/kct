@@ -3,7 +3,32 @@
         "ux": {
             "url": "https://github.com/EasyDeveloper2/ux.git",
             "branch": "master",
-            "desc": "快应用"
+            "desc": "快应用开发模板"
+        },
+        "react-native":{
+            "url":"https://github.com/EasyDeveloper2/react-native.git",
+            "branch":"master",
+            "desc":"快速开发 react-native App 模板"
+        },
+        "mini-program-wx":{
+            "url":"https://github.com/EasyDeveloper2/mini-program-wx.git",
+            "branch":"master",
+            "desc":"微信小程序开发模板"
+        },
+        "vue-web-app":{
+            "url":"https://github.com/EasyDeveloper2/vue-web-app.git",
+            "branch":"master",
+            "desc":"基于Vue开发移动端webApp模板"
+        },
+        "vue-web-admin":{
+            "url":"https://github.com/EasyDeveloper2/vue-web-admin.git",
+            "branch":"master",
+            "desc":"基于Vue开发网站后台管理系统模板"
+        },
+        "api-cloud":{
+            "url":"https://github.com/EasyDeveloper2/apicloud.git",
+            "branch":"master",
+            "desc":"apiCloud开发App模板"
         }
     }
 }
