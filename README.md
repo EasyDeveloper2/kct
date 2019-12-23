@@ -1,7 +1,16 @@
+
+# 提供多种开发模板方便快速获取
+
+| NPM                                  | Dependency                                     | Downloads                                      | Build                                       |
+| ------------------------------------ | ---------------------------------------------- | ---------------------------------------------- | ------------------------------------------- |
+| [![NPM version][npm-image]][npm-url] | [![Dependency Status][david-image]][david-url] | [![Downloads][downloads-image]][downloads-url] | [![Build Status][travis-image]][travis-url] |
+
 ## 安装
+
 ```
 npm install kct
 ```
+
 ## 查看所有模板
 
 ```
@@ -13,6 +22,7 @@ kct list 或者 kct l
 ```
 kct init 模板名称 (如 kct init ux)
 ```
+
 ## 运行
 
 ```
@@ -37,5 +47,7 @@ npm run start
  node ./bin/kct
 2.上传npm 值npm官方元 npm publish
 ```
+
+
 
 
