@@ -22,7 +22,7 @@ module.exports = (name) => {
             tplName = yield prompt('Template name(模板名称如:ux): ')
         }
 
-        let projectName = yield prompt('Project name(请输入项目名称): ' + name)
+        let projectName = yield prompt('Project name(请输入项目名称):')
 
         let gitUrl
 

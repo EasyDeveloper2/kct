@@ -64,7 +64,7 @@ program
  
 .action(() => {
  
-require('../command/init')(process.argv[2])
+require('../command/init')(process.argv[3])
  
 })
  
