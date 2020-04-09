@@ -10,6 +10,16 @@
             "branch":"master",
             "desc":"快速开发 react-native App 模板"
         },
+        "node-serve":{
+            "url":"https://github.com/EasyDeveloper2/node_serve.git",
+            "branch":"master",
+            "desc":"基于nodejs快速开发api模板"
+        },
+        "taro":{
+           "url":"https://github.com/EasyDeveloper2/Taro-template.git",
+           "branch":"master",
+           "desc":"基于taro快速开发小程序模板"
+        },
         "mini-program-wx":{
             "url":"https://github.com/EasyDeveloper2/mini-program-wx.git",
             "branch":"master",

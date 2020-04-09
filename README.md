@@ -36,6 +36,8 @@ npm run start
 - vue-web-app->基于Vue开发web-app模板
 - vue-web-admin->基于vue开发后台管理系统模板
 - api-cloud->apicloud跨平台app开发模板
+- taro -> 基于taro快速开发小程序模板
+- node-serve -> 基于node快速开发服务端API
 
 
 ## 如果你下载了本工程源码想要调试请使用
