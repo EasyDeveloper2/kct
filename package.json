@@ -1,6 +1,6 @@
 {
   "name": "kct",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "脚手架工具",
   "main": "init.js",
   "scripts": {

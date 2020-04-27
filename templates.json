@@ -6,7 +6,7 @@
             "desc": "快应用开发模板"
         },
         "react-native":{
-            "url":"https://github.com/EasyDeveloper2/react-native.git",
+            "url":"https://github.com/EasyDeveloper2/react-native-template.git",
             "branch":"master",
             "desc":"快速开发 react-native App 模板"
         },
